@@ -1,20 +1,169 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
-    line-height: 1.15;
+    line-height: 1.5;
+    font-size: 1rem;
 }
 
 a {
     text-decoration: none;
 }
 
-ul,li {
+ul,
+li {
     list-style: none;
+}
+
+/* !HEADER  */
+
+header {
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background-color: #fff;
+}
+
+
+.navbarNavPooch a p {
+    color: #189a46;
+    font-size: 34px;
+}
+
+.navbar .font-weight-bold {
+    margin-bottom: 0;
+}
+
+.navbar .nav-link {
+    color: #000c04;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 14px 0;
+}
+
+#navbarNavPooch .nav-item.active .nav-link {
+    color: #35a22c;
+}
+
+#navbarNavPooch .nav-item .nav-link {
+    transition: all .5s;
+}
+
+#navbarNavPooch .nav-item .nav-link:hover {
+    color: #35a22c;
+}
+
+#navbarNavPooch .nav-item::after {
+    content: "";
+    width: 0%;
+    height: 1.5px;
+    background-color: #35a22c;
+    display: block;
+    transition: all .5s;
+}
+
+#navbarNavPooch .nav-item:hover::after {
+    width: 100%;
+}
+
+#navbarNavPooch .dropdown-item::after {
+    content: "";
+    width: 0;
+    height: 1.25px;
+    background-color: #35a22c;
+    display: block;
+    transition: all .4s;
+}
+
+#navbarNavPooch .dropdown-item:hover::after {
+    width: 100%;
+}
+
+#navbarNavPooch .dropdown-item {
+    transition: all .4s;
+}
+
+#navbarNavPooch .dropdown-item:hover {
+    color: #35a22c;
+    background-color: #fff;
+}
+
+/*? Light theme */
+#myBody {
+    background-color: #fff;
+}
+
+#switchButton .fa-sun {
+    display: none;
+    color: #afafaf
+}
+
+#switchButton .fa-moon {
+    display: block;
+    color: #afafaf
+}
+
+/*? Dark Theme*/
+#myBody.dark {
+    background-color: #000;
+}
+
+.dark #switchButton .fa-sun {
+    display: block;
+}
+
+.dark #switchButton .fa-moon {
+    display: none;
+}
+
+.dark .navbar .nav-link {
+    color: #ddd;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none;
+}
+
+.fa-regular,
+.far {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.dark header {
+    background-color: black;
+}
+
+/*! CAROUSEL  */
+
+.carousel-caption {
+    position: absolute;
+    right: 30%;
+    bottom: 35%;
+    left: -2%;
+    z-index: 10;
+    color: #fff;
+}
+
+.carousel-caption h1{
+    font-size: 66px;
+}
+
+.overlay {
+    background: rgba(39, 43, 54, .5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

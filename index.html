@@ -10,7 +10,8 @@
     <!-- FONT GG  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;700&family=Jost:wght@300;400;600&family=Kanit:wght@500&family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;700&family=Jost:wght@300;400;600&family=Kanit:wght@500&family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap"
         rel="stylesheet">
 
 
@@ -32,32 +33,134 @@
 
 </head>
 
-<body>
+<body id="myBody">
 
-<header></header>
+    <header>
+        <nav class="navbarNavPooch navbar navbar-expand-lg container ">
+            <a class="navbar-brand" href="#">
+                <p class="font-weight-bold">Pooch Care</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavPooch"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavPooch">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Blog
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Blog Posts</a>
+                            <a class="dropdown-item" href="#">Blog single</a>
+                            <a class="dropdown-item" href="#">Landing Page</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mode-container py-3">
+                <div style="width: 5rem;" class="ml-auto py-1 ">
+                    <button class="btn" id="switchButton" title="Click to switch theme">
+                        <i class="far fa-sun"></i>
+                        <i class="far fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- data-ride="carousel" -->
+    <section class="Poochcarousel">
+        <div class="carousel-fluid">
+            <div id="carouselPooch" class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselPooch" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselPooch" data-slide-to="1"></li>
+                    <li data-target="#carouselPooch" data-slide-to="2"></li>
+                    <li data-target="#carouselPooch" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/f6.jpg" class="d-block w-100" alt="...">
+                        <div class=" container carousel-caption d-none d-md-block">
+                            <h1>Quality Things for 
+                                 Loving Pets</h1>
+                            <p>Keeps your Pet Smiling</p>
+                            <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="#"> Read More</a>
+                            <a class="btn btn-style border-btn mt-sm-5 mt-4" href="#"> Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Quality Things for Loving Pets</h1>
+                            <p>Keeps your Pet Smiling</p>
+                            <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="#"> Read More</a>
+                            <a class="btn btn-style border-btn mt-sm-5 mt-4" href="#"> Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/f8.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Quality Things for Loving Pets</h1>
+                            <p>Keeps your Pet Smiling</p>
+                            <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="#"> Read More</a>
+                            <a class="btn btn-style border-btn mt-sm-5 mt-4" href="#"> Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/f7.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Quality Things for Loving Pets</h1>
+                            <p>Keeps your Pet Smiling</p>
+                            <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="#"> Read More</a>
+                            <a class="btn btn-style border-btn mt-sm-5 mt-4" href="#"> Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="services" ></section>
+    <section class="about"></section>
 
-<section class="about"></section>
+    <section class="services"></section>
 
-<section class="carousel"></section>
+    <section class="choose"></section>
 
-<section class="choose"></section>
+    <section class="number"></section>
 
-<section class="number"></section>
+    <section class="plans"></section>
 
-<section class="plans"></section>
+    <section class="nutrition"></section>
 
-<section class="nutrition"></section>
+    <section class="testimonials"></section>
 
-<section class="testimonials"></section>
+    <section class="updated"></section>
 
-<section class="updated"></section>
-
-<footer></footer>
-
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./JS/light.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
