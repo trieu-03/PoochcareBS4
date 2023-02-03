@@ -340,11 +340,11 @@ header {
 
 /*! SERVICES  */
 
-.services{
+.services {
     background-color: var(--bg-light);
 }
 
-.services-item{
+.services-item {
     border-radius: 20px;
     padding: 40px 30px;
     margin: 12px -8px;
@@ -353,32 +353,32 @@ header {
     transition: all 0.5s;
 }
 
-.services-item:hover{
+.services-item:hover {
     background-color: var(--bg-light);
 
 }
 
-.services-item span{
+.services-item span {
     font-size: 30px;
     color: var(--primary-color);
     margin-bottom: 20px;
 }
 
-.services-item a{
-font-size: 24px;
-font-weight: 600;
- margin-top: 25px;
- margin-bottom: 15px;
- color: var(--heading-color);
+.services-item a {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: var(--heading-color);
 }
 
-.services-item a:hover{
+.services-item a:hover {
     color: var(--primary-color);
     text-decoration: none;
 }
 
 
-.services-item p{
+.services-item p {
     font-size: 1.2em;
     line-height: 28px;
     color: var(--font-color);
@@ -386,11 +386,11 @@ font-weight: 600;
 
 /*! CHOOSE  */
 
-.img-fluid{
+.img-fluid {
     border-radius: 10px;
 }
 
-.text-left h5{
+.text-left h5 {
     font-size: 18px;
     line-height: 2em;
     letter-spacing: 1px;
@@ -398,26 +398,26 @@ font-weight: 600;
     padding-top: 80px;
 }
 
-.text-left h3{
+.text-left h3 {
     font-size: 40px;
     font-weight: 600;
     color: var(--heading-color);
 }
 
-.text-left p{
+.text-left p {
     line-height: 24.5px;
     color: var(--font-color);
     margin: 15px 0 35px 0;
 }
 
-.text-left li{
+.text-left li {
     line-height: 26px;
     color: var(--heading-color);
     margin: 15px 0;
     font-weight: 600;
 }
 
-.text-left i{
+.text-left i {
     color: var(--primary-color);
     margin-right: 12px;
     background: var(--bg-light);
@@ -428,15 +428,15 @@ font-weight: 600;
 
 /*! NUMBER  */
 
-.number{
+.number {
     background: #189A46;
 }
 
-.numberfour{
+.numberfour {
     text-align: center;
 }
 
-.numberfour p{
+.numberfour p {
     font-size: 50px;
     line-height: 60px;
     font-weight: 600;
@@ -445,7 +445,7 @@ font-weight: 600;
     margin-bottom: 0;
 }
 
-.numberfour h4{
+.numberfour h4 {
     font-size: 20px;
     line-height: 25px;
     color: #fff;
