@@ -35,7 +35,8 @@
 
 <body id="myBody">
 
-    <header>
+    <header class="header-fixed">
+       <div class="container">
         <nav class="navbarNavPooch navbar navbar-expand-lg container ">
             <a class="navbar-brand" href="#">
                 <p class="font-weight-bold">Pooch Care</p>
@@ -84,11 +85,14 @@
                 </div>
             </div>
         </nav>
+       </div>
     </header>
+
     <!-- data-ride="carousel" -->
     <section class="Poochcarousel">
         <div class="carousel-fluid">
-            <div id="carouselPooch" class="carousel slide">
+            <!-- data-ride="carousel" -->
+            <div id="carouselPooch" class="carousel slide"  >
                 <ol class="carousel-indicators">
                     <li data-target="#carouselPooch" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselPooch" data-slide-to="1"></li>
@@ -97,40 +101,42 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <div class="overlay"></div>
                         <img src="./img/f6.jpg" class="d-block w-100" alt="...">
-                        <div class=" container carousel-caption d-none d-md-block">
-                            <h1>Quality Things for 
-                                 Loving Pets</h1>
+                        <div class=" container text-left carousel-caption d-none d-md-block">
+                            <h1>Quality Things for <br> Loving Pets</h1>
                             <p>Keeps your Pet Smiling</p>
-                            <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="#"> Read More</a>
-                            <a class="btn btn-style border-btn mt-sm-5 mt-4" href="#"> Contact Us</a>
+                            <button class="btn mt-sm-5 mt-4 mr-2" href="#"> Read More</button>
+                            <button class="btn btn-success mt-sm-5 mt-4" href="#"> Contact Us</button>
                         </div>
                     </div>
                     <div class="carousel-item">
+                        <div class="overlay"></div>
                         <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Quality Things for Loving Pets</h1>
+                        <div class="container text-left carousel-caption carousel-item2 d-none d-md-block">
+                            <h1>Quality Things for <br> Loving Pets</h1>
                             <p>Keeps your Pet Smiling</p>
-                            <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="#"> Read More</a>
-                            <a class="btn btn-style border-btn mt-sm-5 mt-4" href="#"> Contact Us</a>
+                            <button class="btn mt-sm-5 mt-4 mr-2" href="#"> Read More</button>
+                            <button class="btn btn-success mt-sm-5 mt-4" href="#"> Contact Us</button>
                         </div>
                     </div>
                     <div class="carousel-item">
+                        <div class="overlay"></div>
                         <img src="./img/f8.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Quality Things for Loving Pets</h1>
+                        <div class=" container text-left carousel-caption d-none d-md-block">
+                            <h1>Quality Things for <br> Loving Pets</h1>
                             <p>Keeps your Pet Smiling</p>
-                            <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="#"> Read More</a>
-                            <a class="btn btn-style border-btn mt-sm-5 mt-4" href="#"> Contact Us</a>
+                            <button class="btn mt-sm-5 mt-4 mr-2" href="#"> Read More</button>
+                            <button class="btn btn-success mt-sm-5 mt-4" href="#"> Contact Us</button>
                         </div>
                     </div>
                     <div class="carousel-item">
+                        <div class="overlay"></div>
                         <img src="./img/f7.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Quality Things for Loving Pets</h1>
-                            <p>Keeps your Pet Smiling</p>
-                            <a class="btn btn-style btn-white mt-sm-5 mt-4 mr-2" href="#"> Read More</a>
-                            <a class="btn btn-style border-btn mt-sm-5 mt-4" href="#"> Contact Us</a>
+                        <div class=" container text-left carousel-caption carousel-item4 d-none d-md-block">
+                            <h1>Quality Things for <br> Loving Pets</h1>
+                            <button class="btn mt-sm-5 mt-4 mr-2" href="#"> Read More</button>
+                            <button class="btn btn-success mt-sm-5 mt-4" href="#"> Contact Us</button>
                         </div>
                     </div>
                 </div>
@@ -138,7 +144,16 @@
         </div>
     </section>
 
-    <section class="about"></section>
+    <section class="about py-5">
+        <div class="container  py-md-5 py-3">
+            <div class="bottom ">
+                <h5>ABOUT US</h5>
+                <h3>We Love Your Pets Like They Are Our Own</h3>
+                <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis.</p>
+                <a href="#" class="read">Read More</a>
+            </div>
+        </div>
+    </section>
 
     <section class="services"></section>
 
