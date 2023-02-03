@@ -88,6 +88,7 @@ header {
     position: relative;
     transition: all 0.3s;
 }
+
 #navbarNavPooch .nav-item.active .nav-link {
     color: var(--primary-color);
 }
@@ -106,7 +107,7 @@ header {
     position: absolute;
     width: 0%;
     height: 1.5px;
-    background:var(--primary-color);
+    background: var(--primary-color);
     bottom: 13px;
     transition: all 0.4s;
 }
@@ -120,8 +121,8 @@ header {
     border-radius: 10px;
     width: 13rem;
     padding: 1rem 0 0.3rem;
-    background-color:var( --bg-color);
-    border: 1px solid var( --bg-color);
+    background-color: var(--bg-color);
+    border: 1px solid var(--bg-color);
     transform: translateX(-50px);
 }
 
@@ -131,8 +132,8 @@ header {
     position: absolute;
     width: 14px;
     height: 14px;
-    background-color:var( --bg-color);
-    border: 1px solid var( --bg-color);
+    background-color: var(--bg-color);
+    border: 1px solid var(--bg-color);
     top: -7px;
     left: 50%;
     border-right: 0;
@@ -148,7 +149,7 @@ header {
     padding-top: 0;
     padding-bottom: 14px;
     width: 100px;
-    background-color:var( --bg-color);
+    background-color: var(--bg-color);
     transition: all 0.4s;
 }
 
@@ -159,22 +160,22 @@ header {
 
 #navbarNavPooch .dropdown-item:hover {
     color: #35a22c;
-    background-color: var( --bg-color);
+    background-color: var(--bg-color);
 }
 
 /*? Light theme */
 #myBody {
-    background-color: var( --bg-color);
+    background-color: var(--bg-color);
 }
 
 #switchButton .fa-sun {
     display: none;
-    color: var( --font-color );
+    color: var(--font-color);
 }
 
 #switchButton .fa-moon {
     display: block;
-    color:  var( --font-color );
+    color: var(--font-color);
 }
 
 /*? Dark Theme*/
@@ -191,7 +192,7 @@ header {
 }
 
 .dark .navbar .nav-link {
-    color: var( --nav-color);
+    color: var(--nav-color);
 }
 
 .btn.focus,
@@ -206,12 +207,12 @@ header {
 }
 
 .dark header {
-    background-color:var( --dropdown-color);
+    background-color: var(--dropdown-color);
 }
 
 /*! CAROUSEL  */
 
-#carouselPooch .carousel-item>img{
+#carouselPooch .carousel-item>img {
     height: 100vh;
     object-fit: cover;
 }
@@ -224,18 +225,19 @@ header {
     margin: 0;
 }
 
-.carousel-item2, .carousel-item4 {
+.carousel-item2,
+.carousel-item4 {
     left: 82%;
 }
 
-.carousel-caption h1{
+.carousel-caption h1 {
     font-size: 66px;
     line-height: 76px;
     font-weight: 700;
     text-transform: capitalize;
 }
 
-.carousel-caption p{
+.carousel-caption p {
     font-size: 1.2rem;
     line-height: 30px;
     font-weight: 400;
@@ -276,7 +278,7 @@ header {
     border-color: #189A46;
 }
 
-.carousel-indicators li  {
+.carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -284,6 +286,7 @@ header {
     display: block;
     border: 0;
 }
+
 .carousel-indicators .active {
     background-color: var(--primary-color);
     width: 30px;
@@ -294,13 +297,13 @@ header {
 
 /*! ABOUT  */
 
-.bottom{
+.bottom {
     text-align: center;
     width: 65%;
     margin-left: 12rem;
 }
 
-.bottom h5{
+.bottom h5 {
     color: #f53626;
     font-size: 18px;
 }
@@ -320,7 +323,7 @@ header {
 
 .read {
     text-decoration: none;
-    color:var(--heading-color);
+    color: var(--heading-color);
     font-size: 17px;
     font-weight: 600;
     margin-top: 20px;
@@ -330,7 +333,7 @@ header {
     transition: all 0.3s;
 }
 
-.read:hover{
+.read:hover {
     color: var(--primary-color);
     text-decoration: none;
 }
