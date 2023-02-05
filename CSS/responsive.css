@@ -1,0 +1,39 @@
+/*************REPONSIVE*****************/
+
+/*! HEADER  */
+
+@media only screen and (max-width: 991px){
+    .mobile-position{
+        position: absolute;
+        top: 5px;
+        right: 90px;
+    }
+    .navbar .navbar-collapse .nav-link{
+        text-align: center;
+        padding: 5px;
+        font-size: 1.2em;
+    }
+
+    .navbar .navbar-collapse .nav-link::before{
+        height: 0px;
+    }
+    
+    .dropdown-menu{
+        width: 100%;
+         transform: translateX(0); 
+    }
+
+    .nav-item .dropdown-item{
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-item .dropdown-item::before{
+        height: 0px;
+    }
+
+    #switchButton {
+        position: absolute;
+        top: 22px;
+    }
+}
