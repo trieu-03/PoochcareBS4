@@ -10,6 +10,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     font-size: 1rem;
+
 }
 
 a {
@@ -59,20 +60,20 @@ header {
     background-color: var(--dropdown-color);
 }
 
-.navbar-toggler{
+.navbar-toggler {
     background-color: #189A46;
 
 }
 
-.navbar-toggler.collapsed .icon-close{
+.navbar-toggler.collapsed .icon-close {
     display: none;
 }
 
-.navbar-toggler  .icon-expand{
+.navbar-toggler .icon-expand {
     display: none;
 }
 
-.navbar-toggler.collapsed .icon-expand{
+.navbar-toggler.collapsed .icon-expand {
     display: block;
 }
 
@@ -82,7 +83,7 @@ header {
     color: #fff;
 }
 
-.mode-container{
+.mode-container {
     width: 24px;
     height: 24px;
     padding: 3px 0;
@@ -150,8 +151,8 @@ header {
 .dropdown-menu {
     border-radius: 10px;
     padding: 1rem 0 0.3rem;
-    background-color: var(--dropdown-color );
-    border: 1px solid var( --border-color);
+    background-color: var(--dropdown-color);
+    border: 1px solid var(--border-color);
     transform: translateX(-50px);
     width: 13rem;
 }
@@ -167,8 +168,8 @@ header {
     position: absolute;
     width: 14px;
     height: 14px;
-    background-color: var( --dropdown-color);
-    border: 1px solid var( --border-color);
+    background-color: var(--dropdown-color);
+    border: 1px solid var(--border-color);
     top: -7px;
     left: 50%;
     border-right: 0;
@@ -246,58 +247,56 @@ header {
 
 /*! CAROUSEL  */
 
-#carouselPooch .carousel-item>img {
-    height: 100vh;
-    object-fit: cover;
-}
-
 .carousel-caption {
-    top: 55%;
+    margin-left: auto;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 0;
-    margin: 0;
+    bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-.carousel-item2,
-.carousel-item4 {
-    left: 82%;
+.carousel-caption .text-left h5 {
+    font-size: 60px;
+    color: #fff;
 }
 
-.carousel-caption h1 {
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0c0c0c;
+    opacity: .6;
+}
+
+.carousel-item .text-left h5 {
+    max-width: 700px;
     font-size: 66px;
     line-height: 76px;
     font-weight: 700;
-    text-transform: capitalize;
+    color: #fff;
 }
 
-.carousel-caption p {
-    font-size: 1.2rem;
-    line-height: 30px;
+.carousel-item .text-left p {
+    color: #fff;
     font-weight: 400;
     text-transform: capitalize;
+    line-height: 35px;
     opacity: 0.9;
+    font-size: 1.2rem;
 }
 
-.overlay {
-    position: absolute;
-    background: rgba(39, 43, 54, .4);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-
-.carousel-item button {
+.carousel-item .btn {
     background-color: #fff;
-    color: #189a46;
-    border-radius: 10px;
-    padding: 12px 35px;
+    color: #189A46;
     border: 2px solid #fff;
-}
-
-.carousel-item button:hover {
-    color: #189a46;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: var(--border-radius);
 }
 
 .carousel-item .btn-success {
@@ -308,21 +307,33 @@ header {
 
 .carousel-item .btn-success:hover {
     background-color: #fff;
-    color: #189a46;
-    border-color: #189A46;
+    color: #189A46;
 }
+
+.carousel-item img {
+    width: 100vw;
+    height: calc(100vh - 40px);
+    object-fit: cover;
+}
+
+.carousel-caption2,
+.carousel-caption4 {
+    margin-left: 25%;
+}
+
 
 .carousel-indicators li {
     width: 10px;
     height: 10px;
+    margin: 0px 6px;
+    display: inline-block;
     border-radius: 50%;
-    margin: 0 5px;
-    display: block;
+    background: #fff;
     border: 0;
 }
 
 .carousel-indicators .active {
-    background-color: var(--primary-color);
+    background-color: #189A46;
     width: 30px;
     height: 10px;
     border-radius: 15px;
@@ -429,7 +440,7 @@ header {
     line-height: 2em;
     letter-spacing: 1px;
     color: var(--secondary-color);
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .text-left h3 {
@@ -440,7 +451,7 @@ header {
 
 .text-left p {
     line-height: 24.5px;
-    color: #fff;
+    color: var(--font-color);
     margin: 15px 0 35px 0;
 }
 

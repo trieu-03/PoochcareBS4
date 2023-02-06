@@ -2,38 +2,119 @@
 
 /*! HEADER  */
 
-@media only screen and (max-width: 991px){
-    .mobile-position{
+@media only screen and (max-width: 992px) {
+
+    .mobile-position {
         position: absolute;
         top: 5px;
         right: 90px;
     }
-    .navbar .navbar-collapse .nav-link{
+
+    .navbar .navbar-collapse .nav-link {
         text-align: center;
         padding: 5px;
         font-size: 1.2em;
     }
 
-    .navbar .navbar-collapse .nav-link::before{
+    .navbar .navbar-collapse .nav-link::before {
         height: 0px;
     }
-    
-    .dropdown-menu{
+
+    .dropdown-menu {
         width: 100%;
-         transform: translateX(0); 
+        transform: translateX(0);
     }
 
-    .nav-item .dropdown-item{
+    .nav-item .dropdown-item {
         width: 100%;
         text-align: center;
     }
 
-    .nav-item .dropdown-item::before{
+    .nav-item .dropdown-item::before {
         height: 0px;
     }
 
-    #switchButton {
-        position: absolute;
-        top: 22px;
+}
+
+/*! CAROUSEL  */
+@media screen and (max-width:1200px) {
+    .carousel-item h5 {
+        font-size: 52px;
+        line-height: 62px;
+    }
+
+    .carousel-item p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .carousel-caption2,
+    .carousel-caption4 {
+        margin-left: 0;
+    }
+
+    .carousel-item h5 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .carousel-item p {
+        font-size: 16px;
+    }
+
+    .carousel-item img {
+        height: 580px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .carousel-item img {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .carousel-item h5 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .carousel-item img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .carousel-caption {
+        height: 48vh;
+    }
+
+    .carousel-item .btn {
+        margin-top: 0 !important;
+        margin-bottom: 15px;
+    }
+
+    .carousel-caption2,
+    .carousel-caption4 {
+        height: 60vh;
+    }
+}
+
+
+
+
+/*! ABOUT  */
+
+@media screen and (max-width: 992px) {
+    .bottom {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
     }
 }
